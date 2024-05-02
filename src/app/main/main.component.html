@@ -1,0 +1,8 @@
+<app-filter
+  [text]="filterText"
+  (textChanged)="filterChanged($event)"
+></app-filter>
+<app-list
+  [elements]="displayElements"
+  (itemSelected)="elementSelected($event)"
+></app-list>

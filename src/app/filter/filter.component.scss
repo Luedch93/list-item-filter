@@ -1,0 +1,13 @@
+.filter-container {
+  position: relative;
+  input {
+    padding: 5px;
+    width: 100%;
+  }
+  svg {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
